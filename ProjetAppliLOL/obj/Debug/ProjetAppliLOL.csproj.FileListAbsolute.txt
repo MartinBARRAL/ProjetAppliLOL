@@ -1,1 +1,5 @@
 D:\ProjetAppliLOL\ProjetAppliLOL\ProjetAppliLOL\bin\Debug\ProjetAppliLOL.exe.config
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\bin\Debug\ProjetAppliLOL.exe.config
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\ProjetAppliLOL.csprojResolveAssemblyReference.cache
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\App.g.cs
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\ProjetAppliLOL_MarkupCompile.cache

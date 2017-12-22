@@ -24,7 +24,7 @@ namespace ProjetAppliLOL
         {
             InitializeComponent();
         }
-<<<<<<< HEAD
+
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
@@ -35,7 +35,6 @@ namespace ProjetAppliLOL
         {
 
         }
-=======
->>>>>>> be0190b1b8375530304107b695152486b6dd67a0
+
     }
 }
