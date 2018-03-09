@@ -15,7 +15,7 @@
                 <GradientStop Color="#FF00142C"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Button x:Name="button" Content="Tournois" HorizontalAlignment="Left" VerticalAlignment="Top" Width="62" Margin="228,118,0,0" Foreground="#FFFFAA00" Background="#FF052357" FontFamily="ROG Fonts v1.6" Height="23" BorderBrush="White" Cursor="Arrow" TextOptions.TextHintingMode="Animated" TextOptions.TextFormattingMode="Display" RenderTransformOrigin="0.561,1.838"/>
+        <Button x:Name="button" Content="Tournois" HorizontalAlignment="Left" VerticalAlignment="Top" Width="62" Margin="228,118,0,0" Foreground="#FFFFAA00" Background="#FF052357" FontFamily="ROG Fonts v1.6" Height="23" BorderBrush="White" Cursor="Arrow" TextOptions.TextHintingMode="Animated" TextOptions.TextFormattingMode="Display" RenderTransformOrigin="0.5,0.5"/>
         <Button x:Name="button1" Content="Joueur" Width="62" Margin="228,208,10,69" Height="23" Background="#FF052357" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6" BorderBrush="White" TextOptions.TextFormattingMode="Display"/>
         <TextBlock x:Name="Trouvez_Votre_Tournois" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Trouvez Votre Tournois" VerticalAlignment="Top" Height="56" Width="143" Foreground="#FFFFAA00" Cursor="None" Margin="80,0,77,0" LineHeight="16" FontSize="18" FontWeight="Bold" FontFamily="ROG Fonts v1.6" TextAlignment="Center" TextOptions.TextFormattingMode="Display"/>
         <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Nom Du Tournois" VerticalAlignment="Top" Width="223" Margin="0,118,0,0" Background="{x:Null}" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6" TextAlignment="Center"/>
