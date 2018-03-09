@@ -3,3 +3,15 @@ C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\bin\Debug\ProjetAppliLOL.ex
 C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\ProjetAppliLOL.csprojResolveAssemblyReference.cache
 C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\App.g.cs
 C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\ProjetAppliLOL_MarkupCompile.cache
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\bin\Debug\ProjetAppliLOL.exe
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\bin\Debug\ProjetAppliLOL.pdb
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\ChoixTournois.g.cs
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\MainWindow.g.cs
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\ProjetAppliLOL_MarkupCompile.lref
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\ChoixTournois.baml
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\MainWindow.baml
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\ProjetAppliLOL.g.resources
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\ProjetAppliLOL.Properties.Resources.resources
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\ProjetAppliLOL.csproj.GenerateResource.Cache
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\ProjetAppliLOL.exe
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\ProjetAppliLOL.pdb
