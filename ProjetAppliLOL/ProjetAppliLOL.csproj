@@ -78,10 +78,17 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="PageLogin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="PageInscription.xaml.cs">
       <DependentUpon>PageInscription.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageLogin.xaml.cs">
+      <DependentUpon>PageLogin.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
