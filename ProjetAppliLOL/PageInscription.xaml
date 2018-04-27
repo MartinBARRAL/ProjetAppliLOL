@@ -9,14 +9,14 @@
       d:DesignHeight="300" d:DesignWidth="300"
       Title="PageInscription">
 
-    <Grid>
+    <Grid Margin="0,0,-211,0">
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="#FF00142C" Offset="0"/>
                 <GradientStop Color="#FF08ABAC" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Expander x:Name="Profile" Header="Profile" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,10,218,0" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6" FontSize="14" Cursor="None">
+        <Expander x:Name="Profile" Header="Profile" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,10,420,0" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6" FontSize="14" Cursor="None">
             <Grid Background="#FFE5E5E5" Height="2" RenderTransformOrigin="0.5,0.5" Width="79">
                 <Grid.RenderTransform>
                     <TransformGroup>
@@ -28,11 +28,11 @@
                 </Grid.RenderTransform>
             </Grid>
         </Expander>
-        <Menu x:Name="menu" HorizontalAlignment="Left" Height="47" Margin="124,0,0,0" VerticalAlignment="Top" Width="152" Foreground="{x:Null}" Background="{x:Null}">
-            <Button x:Name="Intégrer" Height="20" Width="60" Background="{x:Null}" BorderBrush="#FFFFAA00" Content="Integrer" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6"/>
-            <Button x:Name="Créer" Height="20" Width="60" Background="{x:Null}" BorderBrush="#FFFFAA00" Content="Creer" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6"/>
-            <Button x:Name="Suivre" Height="20" Width="60" Background="{x:Null}" BorderBrush="#FFFFAA00" Content="Suivre" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6"/>
-            <Button x:Name="Créer1" Height="20" Width="60" Background="{x:Null}" BorderBrush="#FFFFAA00" Content="Creer" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6"/>
+        <Menu x:Name="menu" HorizontalAlignment="Left" Height="32" Margin="129,8,0,0" VerticalAlignment="Top" Width="353" Foreground="{x:Null}" Background="{x:Null}">
+            <Button x:Name="Intégrer" Height="25" Width="70" Background="{x:Null}" BorderBrush="#FFFFAA00" Content="Integrer" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6"/>
+            <Button x:Name="Créer" Height="25" Width="70" Background="{x:Null}" BorderBrush="#FFFFAA00" Content="Creer" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6"/>
+            <Button x:Name="Suivre" Height="25" Width="75" Background="{x:Null}" BorderBrush="#FFFFAA00" Content="Suivre" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6"/>
+            <Button x:Name="Créer1" Height="25" Width="70" Background="{x:Null}" BorderBrush="#FFFFAA00" Content="Creer" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6"/>
         </Menu>
 
     </Grid>

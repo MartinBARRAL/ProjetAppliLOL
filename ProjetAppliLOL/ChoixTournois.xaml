@@ -8,18 +8,32 @@
       d:DesignHeight="300" d:DesignWidth="300"
       Title="ChoixTournois">
 
-    <Grid>
+    <Grid Margin="-69,0,-142,0">
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="#FF08ABAC" Offset="1"/>
                 <GradientStop Color="#FF00142C"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Button x:Name="button" Content="Tournois" HorizontalAlignment="Left" VerticalAlignment="Top" Width="62" Margin="228,118,0,0" Foreground="#FFFFAA00" Background="#FF052357" FontFamily="ROG Fonts v1.6" Height="23" BorderBrush="White" Cursor="Arrow" TextOptions.TextHintingMode="Animated" TextOptions.TextFormattingMode="Display" RenderTransformOrigin="0.5,0.5"/>
-        <Button x:Name="button1" Content="Joueur" Width="62" Margin="228,208,10,69" Height="23" Background="#FF052357" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6" BorderBrush="White" TextOptions.TextFormattingMode="Display"/>
-        <TextBlock x:Name="Trouvez_Votre_Tournois" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Trouvez Votre Tournois" VerticalAlignment="Top" Height="56" Width="143" Foreground="#FFFFAA00" Cursor="None" Margin="80,0,77,0" LineHeight="16" FontSize="18" FontWeight="Bold" FontFamily="ROG Fonts v1.6" TextAlignment="Center" TextOptions.TextFormattingMode="Display"/>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Nom Du Tournois" VerticalAlignment="Top" Width="223" Margin="0,118,0,0" Background="{x:Null}" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6" TextAlignment="Center"/>
-        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Nom Du Joueur" VerticalAlignment="Top" Width="223" Margin="0,208,0,0" Background="{x:Null}" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6" TextAlignment="Center"/>
+        <TextBlock x:Name="Trouvez_Votre_Tournois" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Height="37" Width="143" Foreground="#FFFFAA00" Cursor="None" Margin="21,29,347,0" LineHeight="16" FontSize="18" FontWeight="Bold" FontFamily="ROG Fonts v1.6" TextAlignment="Center" TextOptions.TextFormattingMode="Display"><Run Text="Rechercher "/><Run Text=" "/></TextBlock>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,106,0,0" TextWrapping="Wrap" Text="Nom Equipe" VerticalAlignment="Top" Width="162" Height="25" Background="White" FontFamily="ROG Fonts v1.6"/>
+        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="10,169,0,0" TextWrapping="Wrap" Text="Nom Tournois" VerticalAlignment="Top" Width="162" Height="25" Background="White" FontFamily="ROG Fonts v1.6"/>
+        <TextBlock x:Name="Trouvez_Votre_Tournois_Copy" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Height="46" Width="143" Foreground="#FFFFAA00" Cursor="None" Margin="320,20,48,0" LineHeight="16" FontSize="18" FontWeight="Bold" FontFamily="ROG Fonts v1.6" TextAlignment="Center" TextOptions.TextFormattingMode="Display"><Run Text="Tournois"/><Run Text=" en cours"/></TextBlock>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="186" Margin="285,91,0,0" VerticalAlignment="Top" Width="216" Background="{x:Null}" BorderBrush="#FFFFAA00" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6">
+            <ListBoxItem/>
+        </ListBox>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="177,106,0,0" VerticalAlignment="Top" Width="27" RenderTransformOrigin="0.482,0.607" Height="26">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+            <Button.CacheMode>
+                <BitmapCache/>
+            </Button.CacheMode>
+            <Button.BindingGroup>
+                <BindingGroup/>
+            </Button.BindingGroup>
+        </Button>
+        <Button x:Name="button_Copy" Content="Button" HorizontalAlignment="Left" Margin="177,169,0,0" VerticalAlignment="Top" Width="27" RenderTransformOrigin="0.482,0.607" Height="26" Background="{x:Null}"/>
 
     </Grid>
 </Page>
