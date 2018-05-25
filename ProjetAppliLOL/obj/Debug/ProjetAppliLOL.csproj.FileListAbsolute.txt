@@ -19,3 +19,6 @@ C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\PageInscription.g
 C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\PageLogin.g.cs
 C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\PageInscription.baml
 C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\PageLogin.baml
+C:\Users\pierr\Documents\GitHub\ProjetAppliLOL\ProjetAppliLOL\bin\Debug\ProjetAppliLOL.exe.config
+C:\Users\pierr\Documents\GitHub\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\ProjetAppliLOL.exe
+C:\Users\pierr\Documents\GitHub\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\ProjetAppliLOL.pdb
