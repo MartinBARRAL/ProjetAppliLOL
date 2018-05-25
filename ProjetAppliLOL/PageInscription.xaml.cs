@@ -24,5 +24,20 @@ namespace ProjetAppliLOL
         {
             InitializeComponent();
         }
+
+        private void Créer_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Intégrer_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Créer1_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
