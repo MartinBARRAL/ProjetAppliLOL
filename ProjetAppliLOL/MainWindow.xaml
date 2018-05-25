@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:ProjetAppliLOL"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
+    
 
     <Grid Margin="-1,1,-1.6,-4.2" RenderTransformOrigin="0.5,0.5">
         <Grid.RowDefinitions>
@@ -40,9 +41,8 @@
         </Button>
         <Button x:Name="button1" Content="TOURNOIS"
                  
-                HorizontalAlignment="Left" Margin="258,0,-0.2,0" VerticalAlignment="Top" Width="263" Height="324" Click="button1_Click" FontSize="48" FontFamily="ROG Fonts v1.6" Grid.RowSpan="2" Grid.ColumnSpan="2"
-                Command="NavigationCommands.GoToPage"
-                CommandParameter="/ChoixTournois.xaml">
+                HorizontalAlignment="Left" Margin="258,0,-0.2,0" VerticalAlignment="Top" Width="263" Height="324" Click="button1_Click" FontSize="48" FontFamily="ROG Fonts v1.6" Grid.RowSpan="2" Grid.ColumnSpan="2">
+
             <Button.Foreground>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White"/>
@@ -55,6 +55,7 @@
                     <GradientStop Color="#FF08ABAC" Offset="1"/>
                 </LinearGradientBrush>
             </Button.Background>
+            
         </Button>
 
 
