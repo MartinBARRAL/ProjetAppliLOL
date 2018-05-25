@@ -22,7 +22,11 @@
         <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="186" Margin="285,91,0,0" VerticalAlignment="Top" Width="216" Background="{x:Null}" BorderBrush="#FFFFAA00" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6">
             <ListBoxItem/>
         </ListBox>
+<<<<<<< HEAD
         <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="177,106,0,0" VerticalAlignment="Top" Width="49" RenderTransformOrigin="0.482,0.607" Height="26">
+=======
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="177,106,0,0" VerticalAlignment="Top" Width="48" RenderTransformOrigin="0.482,0.607" Height="26">
+>>>>>>> Picky
             <Button.Background>
                 <ImageBrush/>
             </Button.Background>
@@ -33,7 +37,11 @@
                 <BindingGroup/>
             </Button.BindingGroup>
         </Button>
+<<<<<<< HEAD
         <Button x:Name="button_Copy" Content="Button" HorizontalAlignment="Left" Margin="177,169,0,0" VerticalAlignment="Top" Width="49" RenderTransformOrigin="0.482,0.607" Height="26" Background="{x:Null}"/>
+=======
+        <Button x:Name="button_Copy" Content="Button" HorizontalAlignment="Left" Margin="177,169,0,0" VerticalAlignment="Top" Width="48" RenderTransformOrigin="0.482,0.607" Height="26" Background="{x:Null}"/>
+>>>>>>> Picky
 
     </Grid>
 </Page>
