@@ -28,11 +28,11 @@
                 </Grid.RenderTransform>
             </Grid>
         </Expander>
-        <Menu x:Name="menu" HorizontalAlignment="Left" Height="32" Margin="129,8,0,0" VerticalAlignment="Top" Width="353" Foreground="{x:Null}" Background="{x:Null}">
-            <Button x:Name="Intégrer" Height="25" Width="70" Background="{x:Null}" BorderBrush="#FFFFAA00" Content="Integrer" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6" Click="Intégrer_Click"/>
-            <Button x:Name="Créer" Height="25" Width="70" Background="{x:Null}" BorderBrush="#FFFFAA00" Content="Creer" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6" Click="Créer_Click"/>
-            <Button x:Name="Suivre" Height="25" Width="75" Background="{x:Null}" BorderBrush="#FFFFAA00" Content="Suivre" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6"/>
-            <Button x:Name="Créer1" Height="25" Width="70" Background="{x:Null}" BorderBrush="#FFFFAA00" Content="Creer" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6" Click="Créer1_Click"/>
+        <Menu x:Name="menu" HorizontalAlignment="Left" Height="67" Margin="127,10,0,0" VerticalAlignment="Top" Width="353" Foreground="{x:Null}" Background="{x:Null}">
+            <Button x:Name="Créer" Height="25" Width="103" Background="{x:Null}" BorderBrush="#FFFFAA00" Content="Créer une équipe" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6" Click="Créer_Click"/>
+            <Button x:Name="Créer_Copy" Height="25" Width="115" Background="{x:Null}" BorderBrush="#FFFFAA00" Content="Intégrer une équipe" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6" Click="Créer_Click"/>
+            <Button x:Name="Créer1" Height="25" Width="102" Background="{x:Null}" BorderBrush="#FFFFAA00" Content="Creer tournoi" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6" Click="Créer1_Click"/>
+            <Button x:Name="Suivre" Height="25" Width="115" Background="{x:Null}" BorderBrush="#FFFFAA00" Content="Suivre un tournoi" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6"/>
         </Menu>
 
     </Grid>
