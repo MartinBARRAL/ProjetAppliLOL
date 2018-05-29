@@ -18,7 +18,6 @@ using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
 using System.Windows.Data;
 using System.Windows.Documents;
-using System.Windows.Forms.Integration;
 using System.Windows.Ink;
 using System.Windows.Input;
 using System.Windows.Markup;
@@ -127,33 +126,15 @@ namespace ProjetAppliLOL {
             return;
             case 3:
             this.Intégrer = ((System.Windows.Controls.Button)(target));
-            
-            #line 32 "..\..\PageInscription.xaml"
-            this.Intégrer.Click += new System.Windows.RoutedEventHandler(this.Intégrer_Click);
-            
-            #line default
-            #line hidden
             return;
             case 4:
             this.Créer = ((System.Windows.Controls.Button)(target));
-            
-            #line 33 "..\..\PageInscription.xaml"
-            this.Créer.Click += new System.Windows.RoutedEventHandler(this.Créer_Click);
-            
-            #line default
-            #line hidden
             return;
             case 5:
             this.Suivre = ((System.Windows.Controls.Button)(target));
             return;
             case 6:
             this.Créer1 = ((System.Windows.Controls.Button)(target));
-            
-            #line 35 "..\..\PageInscription.xaml"
-            this.Créer1.Click += new System.Windows.RoutedEventHandler(this.Créer1_Click);
-            
-            #line default
-            #line hidden
             return;
             }
             this._contentLoaded = true;
