@@ -55,7 +55,52 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Composition_équipe.xaml.cs">
+      <DependentUpon>Composition_équipe.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Creer_equipe.xaml.cs">
+      <DependentUpon>Creer_equipe.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Créer_Tournoi.xaml.cs">
+      <DependentUpon>Créer_Tournoi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Inscription.xaml.cs">
+      <DependentUpon>Inscription.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resume_equipe.xaml.cs">
+      <DependentUpon>Resume_equipe.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resume_Tournoi.xaml.cs">
+      <DependentUpon>Resume_Tournoi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Selectionner_tournoi.xaml.cs">
+      <DependentUpon>Selectionner_tournoi.xaml</DependentUpon>
+    </Compile>
     <Page Include="ChoixTournois.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Choix_equipe.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Composition_équipe.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Creer_equipe.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Créer_Tournoi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Inscription.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Integrer_equipe.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -70,6 +115,12 @@
     <Compile Include="ChoixTournois.xaml.cs">
       <DependentUpon>ChoixTournois.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Choix_equipe.xaml.cs">
+      <DependentUpon>Choix_equipe.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Integrer_equipe.xaml.cs">
+      <DependentUpon>Integrer_equipe.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -79,6 +130,18 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="PageLogin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resume_equipe.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resume_Tournoi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Selectionner_tournoi.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
