@@ -24,27 +24,25 @@ namespace ProjetAppliLOL
         public MainWindow()
         {
             InitializeComponent();
+           
         }
-
-      
-   
-
-
+    
 
         private void button_Click(object sender, RoutedEventArgs e)
-        {
-
-            NavigationService nav = NavigationService.GetNavigationService(this);
-            nav.Navigate(new Uri("ChoixTournois.xaml", UriKind.RelativeOrAbsolute));
-
-
+        {           
+            frame1.Navigate(new PageLogin());
         }
+
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService nav = NavigationService.GetNavigationService(this);
-            nav.Navigate(new Uri("PageLogin.xaml", UriKind.RelativeOrAbsolute));
+
+            frame1.Navigate(new ChoixTournois());
         }
 
+        private void frame1_Navigated(object sender, NavigationEventArgs e)
+        {
+
+        }
     }
 }

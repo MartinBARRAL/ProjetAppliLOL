@@ -22,6 +22,7 @@ C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\PageLogin.baml
 C:\Users\pierr\Documents\GitHub\ProjetAppliLOL\ProjetAppliLOL\bin\Debug\ProjetAppliLOL.exe.config
 C:\Users\pierr\Documents\GitHub\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\ProjetAppliLOL.exe
 C:\Users\pierr\Documents\GitHub\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\ProjetAppliLOL.pdb
+<<<<<<< HEAD
 C:\Users\pierr\Documents\GitHub\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\ProjetAppliLOL.csprojResolveAssemblyReference.cache
 C:\Users\pierr\Documents\GitHub\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\ChoixTournois.g.cs
 C:\Users\pierr\Documents\GitHub\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Choix_equipe.g.cs
@@ -55,3 +56,6 @@ C:\Users\pierr\Documents\GitHub\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\ProjetAp
 C:\Users\pierr\Documents\GitHub\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\ProjetAppliLOL.csproj.GenerateResource.Cache
 C:\Users\pierr\Documents\GitHub\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Composition_équipe.g.cs
 C:\Users\pierr\Documents\GitHub\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Composition_équipe.baml
+=======
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\GeneratedInternalTypeHelper.g.cs
+>>>>>>> Martin

@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:ProjetAppliLOL"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    
+
 
     <Grid Margin="-1,1,-1.6,-4.2" RenderTransformOrigin="0.5,0.5">
         <Grid.RowDefinitions>
@@ -55,12 +55,17 @@
                     <GradientStop Color="#FF08ABAC" Offset="1"/>
                 </LinearGradientBrush>
             </Button.Background>
-            
+
         </Button>
-
-
-
-
-
+        <Frame HorizontalAlignment="Stretch" VerticalAlignment="Stretch" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Name="frame1" NavigationUIVisibility="Hidden" RenderTransformOrigin="0.5,0.5" Margin="-4,-4,3.8,4.2">
+            <Frame.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.059"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Frame.RenderTransform>
+        </Frame>
     </Grid>
 </Window>
