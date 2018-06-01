@@ -31,6 +31,7 @@ namespace ProjetAppliLOL
         private void button_Click(object sender, RoutedEventArgs e)
         {           
             frame1.Navigate(new PageLogin());
+            
         }
 
 
@@ -38,6 +39,7 @@ namespace ProjetAppliLOL
         {
 
             frame1.Navigate(new ChoixTournois());
+            
         }
 
         private void frame1_Navigated(object sender, NavigationEventArgs e)

@@ -57,12 +57,12 @@
             </Button.Background>
 
         </Button>
-        <Frame HorizontalAlignment="Stretch" VerticalAlignment="Stretch" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Name="frame1" NavigationUIVisibility="Hidden" RenderTransformOrigin="0.5,0.5" Margin="-4,-4,3.8,4.2">
+        <Frame HorizontalAlignment="Stretch" VerticalAlignment="Stretch" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Name="frame1" NavigationUIVisibility="Hidden" RenderTransformOrigin="0.5,0.5" Margin="-4,0,3.8,0.2">
             <Frame.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
                     <SkewTransform/>
-                    <RotateTransform Angle="-0.059"/>
+                    <RotateTransform Angle="-0.257"/>
                     <TranslateTransform/>
                 </TransformGroup>
             </Frame.RenderTransform>
