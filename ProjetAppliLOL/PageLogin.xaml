@@ -8,20 +8,32 @@
       d:DesignHeight="300" d:DesignWidth="300"
       Title="PageLogin">
 
-    <Grid Margin="6,1,-232,-51" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="#FF00142C" Offset="0"/>
                 <GradientStop Color="#FF08ABAC" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="37" Margin="63,10,0,0" TextWrapping="Wrap" Text="CONNEXION" VerticalAlignment="Top" Width="404" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFFFAA00" FontSize="24" FontFamily="ROG Fonts v1.6" TextAlignment="Center"/>
-        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="10,110,0,0" TextWrapping="Wrap" Text="Nom d'utilisateur" VerticalAlignment="Top" Width="150" Background="{x:Null}" Foreground="#FFFFAA00" BorderBrush="{x:Null}" TextAlignment="Center" FontFamily="ROG Fonts v1.6" FontSize="14"/>
-        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Mot de passe" VerticalAlignment="Top" Width="150" Margin="10,177,0,0" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6" TextAlignment="Center" FontSize="14"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="191,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="23" Width="276" Background="White"/>
-        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="191,177,0,0" Height="26" Width="276" Background="White"/>
-        <Button x:Name="button" Content="Se connecter" Margin="162,255,144,0" VerticalAlignment="Top" Height="36" Foreground="#FFFFAA00" Background="#FF00142C" BorderBrush="#FFFFAA00" FontFamily="ROG Fonts v1.6" FontSize="14" Click="button_Click"/>
-        <Button x:Name="button1" Content="S'inscrire" VerticalAlignment="Top" Margin="177,296,177,0" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="#FFFFAA00" FontStyle="Italic" FontFamily="ROG Fonts v1.6" FontSize="14"/>
+        <TextBlock  Grid.Row="0"  Grid.Column="1" x:Name="textBox" HorizontalAlignment="Left" Height="37"  TextWrapping="Wrap" Text="CONNEXION" VerticalAlignment="Center" Width="404" Background="{x:Null}"  Foreground="#FFFFAA00" FontSize="24" FontFamily="ROG Fonts v1.6" TextAlignment="Center"/>
+        <TextBlock  Grid.Row="1"  Grid.Column="0" x:Name="textBox1" HorizontalAlignment="Center" Height="23"  TextWrapping="Wrap" Text="Nom d'utilisateur" VerticalAlignment="Top" Width="150" Background="{x:Null}" Foreground="#FFFFAA00"  TextAlignment="Center" FontFamily="ROG Fonts v1.6" FontSize="14"/>
+        <TextBlock  Grid.Row="2"  Grid.Column="0" x:Name="textBox2" HorizontalAlignment="Center" Height="23" TextWrapping="Wrap" Text="Mot de passe" VerticalAlignment="Top" Width="150" Background="{x:Null}"  Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6" TextAlignment="Center" FontSize="14"/>
+        <TextBox  Grid.Row="1"  Grid.Column="1" x:Name="textBlock" HorizontalAlignment="Center"  TextWrapping="Wrap" VerticalAlignment="Top" Height="23" Width="276" Background="White"/>
+        <TextBox  Grid.Row="2"  Grid.Column="1" x:Name="textBlock1" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top"  Height="26" Width="276" Background="White"/>
+        <Button  Grid.Row="3"  Grid.Column="1" x:Name="button" Content="Se connecter"  VerticalAlignment="Top" Height="36" Foreground="#FFFFAA00" Background="#FF00142C" BorderBrush="#FFFFAA00" FontFamily="ROG Fonts v1.6" FontSize="14" Click="button_Click"/>
+        <Button  Grid.Row="4"  Grid.Column="1" x:Name="button1" Content="S'inscrire" VerticalAlignment="Top"  BorderBrush="{x:Null}" Background="{x:Null}" Foreground="#FFFFAA00" FontStyle="Italic" FontFamily="ROG Fonts v1.6" FontSize="14"/>
 
     </Grid>
 </Page>

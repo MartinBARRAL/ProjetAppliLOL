@@ -4,25 +4,36 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ProjetAppliLOL"
-      mc:Ignorable="d" 
-      d:DesignHeight="300" d:DesignWidth="300"
+      mc:Ignorable="d"       
       Title="ChoixTournois">
 
-    <Grid Margin="-69,0,-156,-50" Width="525" Height="350" VerticalAlignment="Top">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="#FF08ABAC" Offset="1"/>
                 <GradientStop Color="#FF00142C"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <TextBlock x:Name="Trouvez_Votre_Tournois" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Height="37" Width="143" Foreground="#FFFFAA00" Cursor="None" Margin="10,29,271,0" LineHeight="16" FontSize="18" FontWeight="Bold" FontFamily="ROG Fonts v1.6" TextAlignment="Center" TextOptions.TextFormattingMode="Display"><Run Text="Rechercher "/><Run Text=" "/></TextBlock>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,155,0,0" TextWrapping="Wrap" Text="Nom Equipe" VerticalAlignment="Top" Width="167" Height="25" Background="White" FontFamily="ROG Fonts v1.6"/>
-        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="10,224,0,0" TextWrapping="Wrap" Text="Nom Tournois" VerticalAlignment="Top" Width="172" Height="25" Background="White" FontFamily="ROG Fonts v1.6"/>
-        <TextBlock x:Name="Trouvez_Votre_Tournois_Copy" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Height="46" Width="143" Foreground="#FFFFAA00" Cursor="None" Margin="299,20,83,0" LineHeight="16" FontSize="18" FontWeight="Bold" FontFamily="ROG Fonts v1.6" TextAlignment="Center" TextOptions.TextFormattingMode="Display"><Run Text="Tournois"/><Run Text=" en cours"/></TextBlock>
-        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="141" Margin="290,136,0,0" VerticalAlignment="Top" Width="162" Background="{x:Null}" BorderBrush="#FFFFAA00" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6">
+        <TextBlock Grid.Row="0"  Grid.Column="0" x:Name="Trouvez_Votre_Tournois" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Height="37" Width="143" Foreground="#FFFFAA00" Cursor="None" LineHeight="16" FontSize="18" FontWeight="Bold" FontFamily="ROG Fonts v1.6" TextAlignment="Center" TextOptions.TextFormattingMode="Display"><Run Text="Rechercher "/><Run Text=" "/></TextBlock>
+        <TextBox Grid.Row="1"  Grid.Column="0" Height="30" Width="300" x:Name="textBlock" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="Nom Equipe" VerticalAlignment="Top"  Background="White" FontFamily="ROG Fonts v1.6"/>
+        <TextBox Grid.Row="2"  Grid.Column="0" Height="30" Width="300" x:Name="textBlock_Copy" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="Nom Tournois" VerticalAlignment="Top"  Background="White" FontFamily="ROG Fonts v1.6"/>
+        <TextBlock Grid.Row="0"  Grid.Column="2" x:Name="Trouvez_Votre_Tournois_Copy" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Height="46" Width="143" Foreground="#FFFFAA00" Cursor="None" LineHeight="16" FontSize="18" FontWeight="Bold" FontFamily="ROG Fonts v1.6" TextAlignment="Center" TextOptions.TextFormattingMode="Display"><Run Text="Tournois"/><Run Text=" en cours"/></TextBlock>
+        <ListBox Grid.Row="1" Grid.RowSpan="2"  Grid.Column="2" x:Name="listBox" Background="{x:Null}" BorderBrush="#FFFFAA00" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6">
             <ListBoxItem/>
         </ListBox>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="182,155,0,0" VerticalAlignment="Top" Width="49" RenderTransformOrigin="0.482,0.607" Height="26">
+        <Button  Grid.Row="1"  Grid.Column="1" x:Name="button1" Content="Button" Height="30" Width="50" VerticalAlignment="Top">
+          
             <Button.Background>
                 <ImageBrush/>
             </Button.Background>
@@ -33,7 +44,17 @@
                 <BindingGroup/>
             </Button.BindingGroup>
         </Button>
-        <Button x:Name="button_Copy" Content="Button" HorizontalAlignment="Left" Margin="187,224,0,0" VerticalAlignment="Top" Width="44" RenderTransformOrigin="0.482,0.607" Height="26" Background="{x:Null}"/>
+        <Button  Grid.Row="2"  Grid.Column="1" x:Name="button2" Content="Button" Height="30" Width="60" VerticalAlignment="Top">
 
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+            <Button.CacheMode>
+                <BitmapCache/>
+            </Button.CacheMode>
+            <Button.BindingGroup>
+                <BindingGroup/>
+            </Button.BindingGroup>
+        </Button>       
     </Grid>
 </Page>

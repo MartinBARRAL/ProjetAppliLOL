@@ -59,3 +59,23 @@ C:\Users\pierr\Documents\GitHub\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Composit
 =======
 C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\GeneratedInternalTypeHelper.g.cs
 >>>>>>> Martin
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Choix_equipe.g.cs
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Composition_équipe.g.cs
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Creer_equipe.g.cs
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Créer_Tournoi.g.cs
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Inscription.g.cs
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Integrer_equipe.g.cs
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Resume_equipe.g.cs
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Resume_Tournoi.g.cs
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Selectionner_tournoi.g.cs
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Choix_equipe.baml
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Composition_équipe.baml
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Creer_equipe.baml
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Créer_Tournoi.baml
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Inscription.baml
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Integrer_equipe.baml
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Resume_equipe.baml
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Resume_Tournoi.baml
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Selectionner_tournoi.baml
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\MenuPrincipal.g.cs
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\MenuPrincipal.baml

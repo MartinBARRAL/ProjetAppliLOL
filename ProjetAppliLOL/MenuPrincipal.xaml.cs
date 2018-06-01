@@ -13,19 +13,27 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-
 namespace ProjetAppliLOL
 {
     /// <summary>
-    /// Logique d'interaction pour MainWindow.xaml
+    /// Logique d'interaction pour MenuPrincipal.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MenuPrincipal : Page
     {
-        public MainWindow()
+        public MenuPrincipal()
         {
             InitializeComponent();
-           
-        } 
-        
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new PageLogin());
+        }
+
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new ChoixTournois());
+        }
     }
 }
