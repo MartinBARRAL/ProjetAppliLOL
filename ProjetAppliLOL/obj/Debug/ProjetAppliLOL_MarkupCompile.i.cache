@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\
+C:\Users\pierr\Documents\GitHub\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\
 ProjetAppliLOL
 none
 false
 DEBUG;TRACE
-C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\App.xaml
-4-108776896
+C:\Users\pierr\Documents\GitHub\ProjetAppliLOL\ProjetAppliLOL\App.xaml
+1311381928
 
-12-2127384088
+21-1225358268
 13738642453
-ChoixTournois.xaml;MainWindow.xaml;PageInscription.xaml;PageLogin.xaml;
+ChoixTournois.xaml;Choix_equipe.xaml;Composition_équipe.xaml;Creer_equipe.xaml;Créer_Tournoi.xaml;Inscription.xaml;Integrer_equipe.xaml;MainWindow.xaml;PageInscription.xaml;PageLogin.xaml;Resume_equipe.xaml;Resume_Tournoi.xaml;Selectionner_tournoi.xaml;
 
 False
 
