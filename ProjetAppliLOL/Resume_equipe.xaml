@@ -1,0 +1,39 @@
+﻿<Page x:Class="ProjetAppliLOL.Resume_equipe"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ProjetAppliLOL"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="Resume_equipe">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="13*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Margin="-100,0,-111,0" Grid.ColumnSpan="2">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF08ABAC" Offset="1"/>
+                    <GradientStop Color="#FF00142C"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <TextBlock x:Name="Trouvez_Votre_Tournois_Copy" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Height="46" Width="143" Foreground="#FFFFAA00" Cursor="None" Margin="190,21,178,0" LineHeight="16" FontSize="18" FontWeight="Bold" FontFamily="ROG Fonts v1.6" TextAlignment="Center" TextOptions.TextFormattingMode="Display" Text="Nom equipe"/>
+            <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="143" Margin="10,96,0,0" VerticalAlignment="Top" Width="491" Background="{x:Null}" BorderBrush="#FFFFAA00" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6">
+                <ListBoxItem/>
+            </ListBox>
+            <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="360,257,0,0" VerticalAlignment="Top" Width="120">
+                <ComboBoxItem Content="Top" HorizontalAlignment="Left" Width="118.4"/>
+                <ComboBoxItem Content="Jungle" HorizontalAlignment="Left" Width="118.4" Selected="ComboBoxItem_Selected"/>
+                <ComboBoxItem Content="Mid" HorizontalAlignment="Left" Width="118.4" Selected="ComboBoxItem_Selected_1"/>
+                <ComboBoxItem Content="Adc" HorizontalAlignment="Left" Width="118.4"/>
+                <ComboBoxItem Content="Support" HorizontalAlignment="Left" Width="118.4"/>
+            </ComboBox>
+
+        </Grid>
+        <Button x:Name="button" Content="+" Margin="0,254,169,0" VerticalAlignment="Top" Height="36" Foreground="#FFFFAA00" Background="#FF00142C" BorderBrush="#FFFFAA00" FontFamily="ROG Fonts v1.6" FontSize="29.333" Click="button_Click"/>
+
+    </Grid>
+</Page>

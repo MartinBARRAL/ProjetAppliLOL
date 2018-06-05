@@ -6,61 +6,11 @@
         xmlns:local="clr-namespace:ProjetAppliLOL"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    
-
-    <Grid Margin="-1,1,-1.6,-4.2" RenderTransformOrigin="0.5,0.5">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="323*"/>
-            <RowDefinition/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition Width="0*"/>
-        </Grid.ColumnDefinitions>
-        <Grid.RenderTransform>
-            <TransformGroup>
-                <ScaleTransform/>
-                <SkewTransform/>
-                <RotateTransform Angle="-0.721"/>
-                <TranslateTransform/>
-            </TransformGroup>
-        </Grid.RenderTransform>
-        <Button x:Name="button" Content="JOUER" VerticalAlignment="Top" Height="324" Click="button_Click" FontSize="48" FontFamily="ROG Fonts v1.6" BorderBrush="#FF1915A8" Grid.RowSpan="2" Margin="0,0,256.8,0">
-            <Button.Foreground>
-                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
-                    <GradientStop Color="#FFFF8000"/>
-                    <GradientStop Color="White" Offset="1"/>
-                </LinearGradientBrush>
-            </Button.Foreground>
-            <Button.Background>
-                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
-                    <GradientStop Color="#FF00142C" Offset="1"/>
-                    <GradientStop Color="#FF08ABAC"/>
-                </LinearGradientBrush>
-            </Button.Background>
-        </Button>
-        <Button x:Name="button1" Content="TOURNOIS"
-                 
-                HorizontalAlignment="Left" Margin="258,0,-0.2,0" VerticalAlignment="Top" Width="263" Height="324" Click="button1_Click" FontSize="48" FontFamily="ROG Fonts v1.6" Grid.RowSpan="2" Grid.ColumnSpan="2">
-
-            <Button.Foreground>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="White"/>
-                    <GradientStop Color="#FFFF6E00" Offset="1"/>
-                </LinearGradientBrush>
-            </Button.Foreground>
-            <Button.Background>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="#FF00142C"/>
-                    <GradientStop Color="#FF08ABAC" Offset="1"/>
-                </LinearGradientBrush>
-            </Button.Background>
-            
-        </Button>
 
 
-
-
-
+    <Grid>        
+        <Frame Name="frame1" NavigationUIVisibility="Hidden">
+           
+        </Frame>
     </Grid>
 </Window>

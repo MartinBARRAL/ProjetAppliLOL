@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\App.xaml
-4-108776896
+14-2079882591
 
-8-1413346084
+18426682927
 13738642453
-ChoixTournois.xaml;MainWindow.xaml;PageInscription.xaml;PageLogin.xaml;
+ChoixTournois.xaml;Choix_equipe.xaml;Composition_équipe.xaml;Creer_equipe.xaml;Créer_Tournoi.xaml;Inscription.xaml;Integrer_equipe.xaml;MainWindow.xaml;MenuPrincipal.xaml;PageInscription.xaml;PageLogin.xaml;Resume_equipe.xaml;Resume_Tournoi.xaml;Selectionner_tournoi.xaml;
 
 False
 
