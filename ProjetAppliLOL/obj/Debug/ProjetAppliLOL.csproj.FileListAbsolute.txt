@@ -79,3 +79,11 @@ C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Resume_Tournoi.ba
 C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Selectionner_tournoi.baml
 C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\MenuPrincipal.g.cs
 C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\MenuPrincipal.baml
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Bracket16.g.cs
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Creer_Tournoi.g.cs
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Creer_Tournoi.baml
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Bracket16.baml
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Bracket8.g.cs
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Bracket8.baml
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Bracket2.g.cs
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Bracket4.g.cs

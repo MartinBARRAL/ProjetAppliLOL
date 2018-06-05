@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace ProjetAppliLOL
 {
     /// <summary>
-    /// Logique d'interaction pour Selectionner_tournoi.xaml
+    /// Logique d'interaction pour Bracket16.xaml
     /// </summary>
-    public partial class Selectionner_tournoi : Page
+    public partial class Bracket16 : Page
     {
-        public Selectionner_tournoi()
+        public Bracket16()
         {
             InitializeComponent();
         }

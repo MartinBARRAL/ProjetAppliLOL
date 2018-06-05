@@ -27,12 +27,12 @@
                 <GradientStop Color="#FF08ABAC" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <TextBlock  Grid.Row="0"  Grid.Column="1" x:Name="textBox" HorizontalAlignment="Left" Height="37"  TextWrapping="Wrap" Text="CONNEXION" VerticalAlignment="Center" Width="404" Background="{x:Null}"  Foreground="#FFFFAA00" FontSize="24" FontFamily="ROG Fonts v1.6" TextAlignment="Center"/>
-        <TextBlock  Grid.Row="1"  Grid.Column="0" x:Name="textBox1" HorizontalAlignment="Center" Height="23"  TextWrapping="Wrap" Text="Nom d'utilisateur" VerticalAlignment="Top" Width="150" Background="{x:Null}" Foreground="#FFFFAA00"  TextAlignment="Center" FontFamily="ROG Fonts v1.6" FontSize="14"/>
-        <TextBlock  Grid.Row="2"  Grid.Column="0" x:Name="textBox2" HorizontalAlignment="Center" Height="23" TextWrapping="Wrap" Text="Mot de passe" VerticalAlignment="Top" Width="150" Background="{x:Null}"  Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6" TextAlignment="Center" FontSize="14"/>
-        <TextBox  Grid.Row="1"  Grid.Column="1" x:Name="textBlock" HorizontalAlignment="Center"  TextWrapping="Wrap" VerticalAlignment="Top" Height="23" Width="276" Background="White"/>
-        <TextBox  Grid.Row="2"  Grid.Column="1" x:Name="textBlock1" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top"  Height="26" Width="276" Background="White"/>
-        <Button  Grid.Row="3"  Grid.Column="1" x:Name="button" Content="Se connecter"  VerticalAlignment="Top" Height="36" Foreground="#FFFFAA00" Background="#FF00142C" BorderBrush="#FFFFAA00" FontFamily="ROG Fonts v1.6" FontSize="14" Click="button_Click"/>
+        <TextBlock  Grid.Row="0"  Grid.Column="1" Grid.ColumnSpan="2" x:Name="textBox" HorizontalAlignment="Left" Height="37"  TextWrapping="Wrap" Text="CONNEXION" VerticalAlignment="Center" Width="104" Background="{x:Null}"  Foreground="#FFFFAA00" FontSize="20" FontFamily="ROG Fonts v1.6" TextAlignment="Center"/>
+        <TextBlock  Grid.Row="1"  Grid.Column="0" x:Name="textBox1" HorizontalAlignment="Center" Height="43"  TextWrapping="Wrap" Text="Nom d'utilisateur" VerticalAlignment="Top" Width="80" Background="{x:Null}" Foreground="#FFFFAA00"  TextAlignment="Center" FontFamily="ROG Fonts v1.6" FontSize="12"/>
+        <TextBlock  Grid.Row="2"  Grid.Column="0" x:Name="textBox2" HorizontalAlignment="Center" Height="43" TextWrapping="Wrap" Text="Mot de passe" VerticalAlignment="Top" Width="80" Background="{x:Null}"  Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6" TextAlignment="Center" FontSize="12"/>
+        <TextBox  Grid.Row="1"  Grid.Column="1" x:Name="textBlock" HorizontalAlignment="Center"  TextWrapping="Wrap" VerticalAlignment="Top" Height="23" Width="200" Background="White"/>
+        <TextBox  Grid.Row="2"  Grid.Column="1" x:Name="textBlock1" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top"  Height="26" Width="200" Background="White"/>
+        <Button  Grid.Row="3"  Grid.Column="1" x:Name="button" Content="Sa connecter"  VerticalAlignment="Top" Height="36" Foreground="#FFFFAA00" Background="#FF00142C" BorderBrush="#FFFFAA00" FontFamily="ROG Fonts v1.6" FontSize="14" Click="login_Click"/>
         <Button  Grid.Row="4"  Grid.Column="1" x:Name="button1" Content="S'inscrire" VerticalAlignment="Top"  BorderBrush="{x:Null}" Background="{x:Null}" Foreground="#FFFFAA00" FontStyle="Italic" FontFamily="ROG Fonts v1.6" FontSize="14"/>
 
     </Grid>

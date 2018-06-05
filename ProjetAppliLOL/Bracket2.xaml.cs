@@ -16,19 +16,13 @@ using System.Windows.Shapes;
 namespace ProjetAppliLOL
 {
     /// <summary>
-    /// Logique d'interaction pour PageLogin.xaml
+    /// Logique d'interaction pour Bracket2.xaml
     /// </summary>
-    public partial class PageLogin : Page
+    public partial class Bracket2 : Page
     {
-        public PageLogin()
+        public Bracket2()
         {
             InitializeComponent();
-        }
-
-        private void login_Click(object sender, RoutedEventArgs e)
-        {
-            
-            this.NavigationService.Navigate(new CreerTournoi());
         }
     }
 }

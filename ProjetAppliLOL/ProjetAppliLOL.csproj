@@ -55,14 +55,24 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Bracket16.xaml.cs">
+      <DependentUpon>Bracket16.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Bracket2.xaml.cs">
+      <DependentUpon>Bracket2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Bracket8.xaml.cs">
+      <DependentUpon>Bracket8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ClassBracket.cs" />
     <Compile Include="Composition_équipe.xaml.cs">
       <DependentUpon>Composition_équipe.xaml</DependentUpon>
     </Compile>
     <Compile Include="Creer_equipe.xaml.cs">
       <DependentUpon>Creer_equipe.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Créer_Tournoi.xaml.cs">
-      <DependentUpon>Créer_Tournoi.xaml</DependentUpon>
+    <Compile Include="Creer_Tournoi.xaml.cs">
+      <DependentUpon>Creer_Tournoi.xaml</DependentUpon>
     </Compile>
     <Compile Include="Inscription.xaml.cs">
       <DependentUpon>Inscription.xaml</DependentUpon>
@@ -76,9 +86,21 @@
     <Compile Include="Resume_Tournoi.xaml.cs">
       <DependentUpon>Resume_Tournoi.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Selectionner_tournoi.xaml.cs">
-      <DependentUpon>Selectionner_tournoi.xaml</DependentUpon>
+    <Compile Include="Bracket4.xaml.cs">
+      <DependentUpon>Bracket4.xaml</DependentUpon>
     </Compile>
+    <Page Include="Bracket16.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Bracket2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Bracket8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ChoixTournois.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -95,7 +117,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Créer_Tournoi.xaml">
+    <Page Include="Creer_Tournoi.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -148,7 +170,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Selectionner_tournoi.xaml">
+    <Page Include="Bracket4.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

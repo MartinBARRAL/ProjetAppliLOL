@@ -16,23 +16,13 @@ using System.Windows.Shapes;
 namespace ProjetAppliLOL
 {
     /// <summary>
-    /// Logique d'interaction pour Créer_Tournoi.xaml
+    /// Logique d'interaction pour Bracket8.xaml
     /// </summary>
-    public partial class Créer_Tournoi : Page
+    public partial class Bracket8 : Page
     {
-        public Créer_Tournoi()
+        public Bracket8()
         {
             InitializeComponent();
-        }
-
-        private void comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

@@ -1,0 +1,57 @@
+﻿<Page x:Class="ProjetAppliLOL.CreerTournoi"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ProjetAppliLOL"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="CreerTournoi">
+
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="2*"/>
+
+            </Grid.ColumnDefinitions>
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF00142C" Offset="0"/>
+                    <GradientStop Color="#FF08ABAC" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <TextBlock Grid.ColumnSpan="3" Grid.Row="1" Grid.Column="0" x:Name="Trouvez_Votre_Tournois_Copy" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Height="46" Width="235" Foreground="#FFFFAA00" Cursor="None"  LineHeight="16" FontSize="18" FontWeight="Bold" FontFamily="ROG Fonts v1.6" TextAlignment="Center" TextOptions.TextFormattingMode="Display" Text="Créer un Tournoi"/>
+            <TextBlock Grid.Row="2" Grid.Column="1" x:Name="textBox1" HorizontalAlignment="Left" VerticalAlignment="Center" Height="23"  TextWrapping="Wrap" Text="Nom Tournoi :" Width="150" Background="{x:Null}" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6" FontSize="14"/>
+            <TextBlock Grid.Row="3" Grid.Column="1" x:Name="textBox2" HorizontalAlignment="Left" VerticalAlignment="Center" Height="23" TextWrapping="Wrap" Text="Nombre equipe :"  Width="150"  Background="{x:Null}"  Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6" FontSize="14"/>
+            <TextBox Grid.Row="2" Grid.Column="2" x:Name="nomTournois" HorizontalAlignment="Left"  TextWrapping="Wrap" VerticalAlignment="Center" Height="23" Width="190" Background="White"/>
+            <TextBlock Grid.Row="4" Grid.Column="1" x:Name="textBox1_Copy" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Catégorie :" VerticalAlignment="Center" Width="150" Background="{x:Null}" Foreground="#FFFFAA00"  FontFamily="ROG Fonts v1.6" FontSize="14"/>
+            <Button Grid.Row="5" Grid.Column="2" x:Name="button" Content="Valider"  HorizontalAlignment="Left" VerticalAlignment="Center" Width="192" Height="36" Foreground="#FFFFAA00" Background="#FF00142C" BorderBrush="#FFFFAA00" FontFamily="ROG Fonts v1.6" FontSize="14" Click="tournois_Click"/>
+            <ComboBox   Grid.Row="3" Grid.Column="2" x:Name="comboBox1" HorizontalAlignment="Left"  VerticalAlignment="Center" Width="192" SelectionChanged="comboBox_SelectionChanged">
+                <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="190.4"/>
+                <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="190.4"/>
+                <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="190.4"/>
+                <ComboBoxItem Content="16" HorizontalAlignment="Left" Width="190.4"/>
+            </ComboBox>
+            <ComboBox  Grid.Row="4" Grid.Column="2" x:Name="comboBox" HorizontalAlignment="Left" VerticalAlignment="Center" Width="190" SelectionChanged="comboBox_SelectionChanged">
+                <ComboBoxItem Content="Bronze - Gold" HorizontalAlignment="Left" Width="187.2"/>
+                <ComboBoxItem Content="Platine - Diamants" HorizontalAlignment="Left" Width="187.2"/>
+                <ComboBoxItem Content="Master - Challenger" HorizontalAlignment="Left" Width="187.2"/>
+                <ComboBoxItem Content="All" HorizontalAlignment="Left" Width="187.2"/>
+            </ComboBox>
+
+        </Grid>
+
+    </Grid>
+</Page>

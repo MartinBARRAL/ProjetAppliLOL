@@ -1,0 +1,224 @@
+﻿<Page x:Class="ProjetAppliLOL.Bracket16"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ProjetAppliLOL"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="Bracket16">
+
+    <Grid>
+        <Grid Margin="-37,0,-174,0">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF08ABAC" Offset="1"/>
+                    <GradientStop Color="#FF00142C"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <TextBlock x:Name="Trouvez_Votre_Tournois_Copy" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Height="46" Width="248" Foreground="#FFFFAA00" Cursor="None" Margin="138,10,125,0" LineHeight="16" FontSize="18" FontWeight="Bold" FontFamily="ROG Fonts v1.6" TextAlignment="Center" TextOptions.TextFormattingMode="Display" Text="Tournoi de 16 équipes"/>
+            <Button x:Name="button1" Content="Créer mon tournoi" VerticalAlignment="Top" Margin="189,269,173,0" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="#FFFFAA00" FontStyle="Italic" FontFamily="ROG Fonts v1.6" FontSize="14" RenderTransformOrigin="0.097,0.573"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="13,51,0,0" TextWrapping="Wrap" Text="Équipe 1" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="52" Margin="160,159,0,0" VerticalAlignment="Top" Width="0"/>
+            <Slider HorizontalAlignment="Left" Height="52" Margin="160,159,0,0" VerticalAlignment="Top" Width="0"/>
+            <Separator HorizontalAlignment="Left" Height="48" Margin="138,36,0,0" VerticalAlignment="Top" Width="35"/>
+            <Separator HorizontalAlignment="Left" Height="54" Margin="89,102,0,0" VerticalAlignment="Top" Width="0"/>
+            <Separator HorizontalAlignment="Left" Height="29" Margin="157,63,0,0" VerticalAlignment="Top" Width="34" RenderTransformOrigin="0.5,0.5">
+                <Separator.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90.578"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Separator.RenderTransform>
+            </Separator>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="13,79,0,0" TextWrapping="Wrap" Text="Équipe 2" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="13,108,0,0" TextWrapping="Wrap" Text="Équipe 3" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="13,136,0,0" TextWrapping="Wrap" Text="Équipe 4" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="13,164,0,0" TextWrapping="Wrap" Text="Équipe 5" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="13,192,0,0" TextWrapping="Wrap" Text="Équipe 6" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="13,220,0,0" TextWrapping="Wrap" Text="Équipe 7" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="13,248,0,0" TextWrapping="Wrap" Text="Équipe 8" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+            <Separator HorizontalAlignment="Left" Height="48" Margin="138,69,0,0" VerticalAlignment="Top" Width="35"/>
+            <Separator HorizontalAlignment="Left" Height="48" Margin="138,89,0,0" VerticalAlignment="Top" Width="35"/>
+            <Separator HorizontalAlignment="Left" Height="48" Margin="138,122,0,0" VerticalAlignment="Top" Width="35"/>
+            <Separator HorizontalAlignment="Left" Height="48" Margin="138,142,0,0" VerticalAlignment="Top" Width="35"/>
+            <Separator HorizontalAlignment="Left" Height="48" Margin="138,175,0,0" VerticalAlignment="Top" Width="35"/>
+            <Separator HorizontalAlignment="Left" Height="48" Margin="138,203,0,0" VerticalAlignment="Top" Width="35"/>
+            <Separator HorizontalAlignment="Left" Height="48" Margin="138,242,0,0" VerticalAlignment="Top" Width="35"/>
+            <Separator HorizontalAlignment="Left" Height="29" Margin="156,115,0,0" VerticalAlignment="Top" Width="34" RenderTransformOrigin="0.5,0.5">
+                <Separator.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90.578"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Separator.RenderTransform>
+            </Separator>
+            <Separator HorizontalAlignment="Left" Height="29" Margin="157,168,0,0" VerticalAlignment="Top" Width="34" RenderTransformOrigin="0.5,0.5">
+                <Separator.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90.578"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Separator.RenderTransform>
+            </Separator>
+            <Separator HorizontalAlignment="Left" Height="29" Margin="156,233,0,0" VerticalAlignment="Top" Width="38" RenderTransformOrigin="0.5,0.5">
+                <Separator.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90.578"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Separator.RenderTransform>
+            </Separator>
+            <Separator HorizontalAlignment="Left" Height="48" Margin="173,54,0,0" VerticalAlignment="Top" Width="25"/>
+            <Separator HorizontalAlignment="Left" Height="48" Margin="174,107,0,0" VerticalAlignment="Top" Width="24"/>
+            <Separator HorizontalAlignment="Left" Height="48" Margin="176,160,0,0" VerticalAlignment="Top" Width="22"/>
+            <Separator HorizontalAlignment="Left" Height="48" Margin="178,223,0,0" VerticalAlignment="Top" Width="20"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="381,51,0,0" TextWrapping="Wrap" Text="Équipe 9" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="381,79,0,0" TextWrapping="Wrap" Text="Équipe 10" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="381,107,0,0" TextWrapping="Wrap" Text="Équipe 11" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="381,136,0,0" TextWrapping="Wrap" Text="Équipe 12" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="381,164,0,0" TextWrapping="Wrap" Text="Équipe 13" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="381,192,0,0" TextWrapping="Wrap" Text="Équipe 14" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="381,220,0,0" TextWrapping="Wrap" Text="Équipe 15" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="381,248,0,0" TextWrapping="Wrap" Text="Équipe 16" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+            <Separator HorizontalAlignment="Left" Height="48" Margin="341,36,0,0" VerticalAlignment="Top" Width="35"/>
+            <Separator HorizontalAlignment="Left" Height="48" Margin="341,69,0,0" VerticalAlignment="Top" Width="35"/>
+            <Separator HorizontalAlignment="Left" Height="48" Margin="341,89,0,0" VerticalAlignment="Top" Width="35"/>
+            <Separator HorizontalAlignment="Left" Height="48" Margin="341,122,0,0" VerticalAlignment="Top" Width="35"/>
+            <Separator HorizontalAlignment="Left" Height="48" Margin="341,142,0,0" VerticalAlignment="Top" Width="35"/>
+            <Separator HorizontalAlignment="Left" Height="48" Margin="341,175,0,0" VerticalAlignment="Top" Width="35"/>
+            <Separator HorizontalAlignment="Left" Height="48" Margin="341,203,0,0" VerticalAlignment="Top" Width="35"/>
+            <Separator HorizontalAlignment="Left" Height="48" Margin="341,242,0,0" VerticalAlignment="Top" Width="35"/>
+            <Separator HorizontalAlignment="Left" Height="29" Margin="322,63,0,0" VerticalAlignment="Top" Width="34" RenderTransformOrigin="0.5,0.5">
+                <Separator.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90.578"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Separator.RenderTransform>
+            </Separator>
+            <Separator HorizontalAlignment="Left" Height="29" Margin="323,115,0,0" VerticalAlignment="Top" Width="34" RenderTransformOrigin="0.5,0.5">
+                <Separator.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90.578"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Separator.RenderTransform>
+            </Separator>
+            <Separator HorizontalAlignment="Left" Height="29" Margin="322,168,0,0" VerticalAlignment="Top" Width="34" RenderTransformOrigin="0.5,0.5">
+                <Separator.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90.578"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Separator.RenderTransform>
+            </Separator>
+            <Separator HorizontalAlignment="Left" Height="29" Margin="322,231,0,0" VerticalAlignment="Top" Width="34" RenderTransformOrigin="0.5,0.5">
+                <Separator.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90.578"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Separator.RenderTransform>
+            </Separator>
+            <Separator HorizontalAlignment="Left" Height="48" Margin="313,54,0,0" VerticalAlignment="Top" Width="25"/>
+            <Separator HorizontalAlignment="Left" Height="48" Margin="313,107,0,0" VerticalAlignment="Top" Width="25"/>
+            <Separator HorizontalAlignment="Left" Height="48" Margin="313,159,0,0" VerticalAlignment="Top" Width="25"/>
+            <Separator HorizontalAlignment="Left" Height="48" Margin="311,223,0,0" VerticalAlignment="Top" Width="25"/>
+            <Separator HorizontalAlignment="Left" Height="29" Margin="166,202,0,0" VerticalAlignment="Top" Width="61" RenderTransformOrigin="0.5,0.5">
+                <Separator.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90.578"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Separator.RenderTransform>
+            </Separator>
+            <Separator HorizontalAlignment="Left" Height="29" Margin="171,90,0,0" VerticalAlignment="Top" Width="51" RenderTransformOrigin="0.5,0.5">
+                <Separator.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90.578"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Separator.RenderTransform>
+            </Separator>
+            <Separator HorizontalAlignment="Left" Height="29" Margin="288,90,0,0" VerticalAlignment="Top" Width="51" RenderTransformOrigin="0.5,0.5">
+                <Separator.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90.578"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Separator.RenderTransform>
+            </Separator>
+            <Separator HorizontalAlignment="Left" Height="29" Margin="282,202,0,0" VerticalAlignment="Top" Width="61" RenderTransformOrigin="0.5,0.5">
+                <Separator.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90.578"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Separator.RenderTransform>
+            </Separator>
+            <Separator HorizontalAlignment="Left" Height="48" Margin="198,195,0,0" VerticalAlignment="Top" Width="20"/>
+            <Separator HorizontalAlignment="Left" Height="48" Margin="198,83,0,0" VerticalAlignment="Top" Width="20"/>
+            <Separator HorizontalAlignment="Left" Height="48" Margin="293,83,0,0" VerticalAlignment="Top" Width="20"/>
+            <Separator HorizontalAlignment="Left" Height="48" Margin="291,195,0,0" VerticalAlignment="Top" Width="20"/>
+            <Separator HorizontalAlignment="Left" Height="29" Margin="163,148,0,0" VerticalAlignment="Top" Width="110" RenderTransformOrigin="0.5,0.5">
+                <Separator.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90.578"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Separator.RenderTransform>
+            </Separator>
+            <Separator HorizontalAlignment="Left" Height="29" Margin="237,148,0,0" VerticalAlignment="Top" Width="110" RenderTransformOrigin="0.5,0.5">
+                <Separator.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90.578"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Separator.RenderTransform>
+            </Separator>
+            <Separator HorizontalAlignment="Left" Height="48" Margin="218,142,0,0" VerticalAlignment="Top" Width="73"/>
+            <Separator HorizontalAlignment="Left" Height="29" Margin="208,102,0,0" VerticalAlignment="Top" Width="96" RenderTransformOrigin="0.5,0.5">
+                <Separator.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90.578"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Separator.RenderTransform>
+            </Separator>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="222,42,0,0" TextWrapping="Wrap" Text="Gagnant" VerticalAlignment="Top" Width="69" TextChanged="TextBox_TextChanged"/>
+
+        </Grid>
+
+    </Grid>
+</Page>
