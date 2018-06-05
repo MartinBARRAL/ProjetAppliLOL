@@ -29,7 +29,7 @@
             </Grid>
         </Expander>
         <Menu x:Name="menu" HorizontalAlignment="Left" Height="32" Margin="129,8,0,0" VerticalAlignment="Top" Width="353" Foreground="{x:Null}" Background="{x:Null}">
-            <Button x:Name="Intégrer" Height="25" Width="70" Background="{x:Null}" BorderBrush="#FFFFAA00" Content="Integrer" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6"/>
+            <Button x:Name="Intégrer_une_équipe" Height="25" Width="70" Background="{x:Null}" BorderBrush="#FFFFAA00" Content="Integrer une équipe" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6"/>
             <Button x:Name="Créer" Height="25" Width="70" Background="{x:Null}" BorderBrush="#FFFFAA00" Content="Creer" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6"/>
             <Button x:Name="Suivre" Height="25" Width="75" Background="{x:Null}" BorderBrush="#FFFFAA00" Content="Suivre" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6"/>
             <Button x:Name="Créer1" Height="25" Width="70" Background="{x:Null}" BorderBrush="#FFFFAA00" Content="Creer" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6"/>
