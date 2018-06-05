@@ -23,7 +23,10 @@ namespace ProjetAppliLOL
         public CreerTournoi()
         {
             InitializeComponent();
+           
         }
+
+        
 
         private void comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
@@ -33,17 +36,114 @@ namespace ProjetAppliLOL
         private void tournois_Click(object sender, RoutedEventArgs e)
         {
             string nom = nomTournois.Text;
-            int bracket = Convert.ToInt32(comboBox1.SelectedItem);
-            int category = Convert.ToInt32(comboBox.SelectedItem);
-            ClassBracket value = new ClassBracket(nom,bracket,category);
-            if (bracket == 2)
-            this.NavigationService.Navigate(new Bracket2());
-            else if (bracket == 4)
-                this.NavigationService.Navigate(new Bracket4());
-            else if (bracket == 8)
-                this.NavigationService.Navigate(new Bracket8());
-            else if (bracket == 16)
-                this.NavigationService.Navigate(new Bracket16());
+            string bracket = Convert.ToString(comboBox1.SelectedValue);
+             string category = Convert.ToString(comboBox.SelectedValue);
+            ClassBracket value = new ClassBracket(nom,category);
+
+
+            if (bracket == "System.Windows.Controls.ComboBoxItem: 2")
+            {
+                if (category == "System.Windows.Controls.ComboBoxItem: Bronze - Gold")
+                {
+                    category = "Bronze - Gold";
+                    this.NavigationService.Navigate(new Bracket2(nom, category));
+                }
+                else if (category == "System.Windows.Controls.ComboBoxItem: Platine - Diamants")
+                {
+                    category = "Platine - Diamand";
+                    this.NavigationService.Navigate(new Bracket2(nom, category));
+                }
+                else if (category == "System.Windows.Controls.ComboBoxItem: Master - Challenger")
+                {
+                    category = "Master - Challenger";
+                    this.NavigationService.Navigate(new Bracket2(nom, category));
+                }
+
+                else if (category == "System.Windows.Controls.ComboBoxItem: All")
+                {
+                    category = "All";
+                    this.NavigationService.Navigate(new Bracket2(nom, category));
+                }
+            }
+
+
+            else if (bracket == "System.Windows.Controls.ComboBoxItem: 4")
+            {
+                if (category == "System.Windows.Controls.ComboBoxItem: Bronze - Gold")
+                {
+                    category = "Bronze - Gold";
+                    this.NavigationService.Navigate(new Bracket4(nom, category));
+                }
+                else if (category == "System.Windows.Controls.ComboBoxItem: Platine - Diamants")
+                {
+                    category = "Platine - Diamand";
+                    this.NavigationService.Navigate(new Bracket4(nom, category));
+                }
+                else if (category == "System.Windows.Controls.ComboBoxItem: Master - Challenger")
+                {
+                    category = "Master - Challenger";
+                    this.NavigationService.Navigate(new Bracket4(nom, category));
+                }
+                else if (category == "System.Windows.Controls.ComboBoxItem: All")
+                {
+                    category = "All";
+                    this.NavigationService.Navigate(new Bracket4(nom, category));
+                }
+            }
+
+
+
+            else if (bracket == "System.Windows.Controls.ComboBoxItem: 8")
+            {
+                if (category == "System.Windows.Controls.ComboBoxItem: Bronze - Gold")
+                {
+                    category = "Bronze - Gold";
+                    this.NavigationService.Navigate(new Bracket8(nom, category));
+                }
+                else if (category == "System.Windows.Controls.ComboBoxItem: Platine - Diamants")
+                {
+                    category = "Platine - Diamand";
+                    this.NavigationService.Navigate(new Bracket8(nom, category));
+                }
+                else if (category == "System.Windows.Controls.ComboBoxItem: Master - Challenger")
+                {
+                    category = "Master - Challenger";
+                    this.NavigationService.Navigate(new Bracket8(nom, category));
+                }
+
+                else if (category == "System.Windows.Controls.ComboBoxItem: All")
+                {
+                    category = "All";
+                    this.NavigationService.Navigate(new Bracket8(nom, category));
+                }
+            }
+
+
+
+            else if (bracket == "System.Windows.Controls.ComboBoxItem: 16")
+            {
+                if (category == "System.Windows.Controls.ComboBoxItem: Bronze - Gold")
+                {
+                    category = "Bronze - Gold";
+                    this.NavigationService.Navigate(new Bracket16(nom, category));
+                }
+                else if (category == "System.Windows.Controls.ComboBoxItem: Platine - Diamants")
+                {
+                    category = "Platine - Diamand";
+                    this.NavigationService.Navigate(new Bracket16(nom, category));
+                }
+                else if (category == "System.Windows.Controls.ComboBoxItem: Master - Challenger")
+                {
+                    category = "Master - Challenger";
+                    this.NavigationService.Navigate(new Bracket16(nom, category));
+                }
+
+                else if (category == "System.Windows.Controls.ComboBoxItem: All")
+                {
+                    category = "All";
+                    this.NavigationService.Navigate(new Bracket16(nom, category));
+                }
+            }
         }
     }
 }

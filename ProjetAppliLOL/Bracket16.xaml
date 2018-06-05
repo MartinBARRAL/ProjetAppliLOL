@@ -9,16 +9,18 @@
       Title="Bracket16">
 
     <Grid>
-        <Grid Margin="-37,0,-174,0">
+        <Grid >
             <Grid.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF08ABAC" Offset="1"/>
                     <GradientStop Color="#FF00142C"/>
                 </LinearGradientBrush>
             </Grid.Background>
-            <TextBlock x:Name="Trouvez_Votre_Tournois_Copy" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Height="46" Width="248" Foreground="#FFFFAA00" Cursor="None" Margin="138,10,125,0" LineHeight="16" FontSize="18" FontWeight="Bold" FontFamily="ROG Fonts v1.6" TextAlignment="Center" TextOptions.TextFormattingMode="Display" Text="Tournoi de 16 équipes"/>
-            <Button x:Name="button1" Content="Créer mon tournoi" VerticalAlignment="Top" Margin="189,269,173,0" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="#FFFFAA00" FontStyle="Italic" FontFamily="ROG Fonts v1.6" FontSize="14" RenderTransformOrigin="0.097,0.573"/>
-            <TextBox HorizontalAlignment="Left" Height="23" Margin="13,51,0,0" TextWrapping="Wrap" Text="Équipe 1" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+            <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock x:Name="afficheNom16" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="175" Foreground="#FFFFAA00" Cursor="None"  LineHeight="16" FontSize="18" FontWeight="Bold" FontFamily="ROG Fonts v1.6" TextAlignment="Center" TextOptions.TextFormattingMode="Display" Text="{Binding textdata}" />
+                <TextBlock x:Name="afficheCategory16" HorizontalAlignment="Right" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="175" Foreground="#FFFFAA00" Cursor="None"  LineHeight="16" FontSize="18" FontWeight="Bold" FontFamily="ROG Fonts v1.6" TextAlignment="Center" TextOptions.TextFormattingMode="Display" Text="{Binding categorydata}" />
+                <Button x:Name="button1" Content="Créer mon tournoi" VerticalAlignment="Top" Margin="189,269,173,0" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="#FFFFAA00" FontStyle="Italic" FontFamily="ROG Fonts v1.6" FontSize="14" RenderTransformOrigin="0.097,0.573"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="13,51,0,0" TextWrapping="Wrap" Text="Équipe 1" VerticalAlignment="Top" Width="120" BorderBrush="#FFFF8000"/>
             <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="52" Margin="160,159,0,0" VerticalAlignment="Top" Width="0"/>
             <Slider HorizontalAlignment="Left" Height="52" Margin="160,159,0,0" VerticalAlignment="Top" Width="0"/>
             <Separator HorizontalAlignment="Left" Height="48" Margin="138,36,0,0" VerticalAlignment="Top" Width="35"/>
@@ -33,13 +35,13 @@
                     </TransformGroup>
                 </Separator.RenderTransform>
             </Separator>
-            <TextBox HorizontalAlignment="Left" Height="23" Margin="13,79,0,0" TextWrapping="Wrap" Text="Équipe 2" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
-            <TextBox HorizontalAlignment="Left" Height="23" Margin="13,108,0,0" TextWrapping="Wrap" Text="Équipe 3" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
-            <TextBox HorizontalAlignment="Left" Height="23" Margin="13,136,0,0" TextWrapping="Wrap" Text="Équipe 4" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
-            <TextBox HorizontalAlignment="Left" Height="23" Margin="13,164,0,0" TextWrapping="Wrap" Text="Équipe 5" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
-            <TextBox HorizontalAlignment="Left" Height="23" Margin="13,192,0,0" TextWrapping="Wrap" Text="Équipe 6" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
-            <TextBox HorizontalAlignment="Left" Height="23" Margin="13,220,0,0" TextWrapping="Wrap" Text="Équipe 7" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
-            <TextBox HorizontalAlignment="Left" Height="23" Margin="13,248,0,0" TextWrapping="Wrap" Text="Équipe 8" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="13,79,0,0" TextWrapping="Wrap" Text="Équipe 2" VerticalAlignment="Top" Width="120" BorderBrush="#FFFF8000"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="13,108,0,0" TextWrapping="Wrap" Text="Équipe 3" VerticalAlignment="Top" Width="120" BorderBrush="#FFFF8000"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="13,136,0,0" TextWrapping="Wrap" Text="Équipe 4" VerticalAlignment="Top" Width="120" BorderBrush="#FFFF8000"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="13,164,0,0" TextWrapping="Wrap" Text="Équipe 5" VerticalAlignment="Top" Width="120" BorderBrush="#FFFF8000"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="13,192,0,0" TextWrapping="Wrap" Text="Équipe 6" VerticalAlignment="Top" Width="120" BorderBrush="#FFFF8000"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="13,220,0,0" TextWrapping="Wrap" Text="Équipe 7" VerticalAlignment="Top" Width="120" BorderBrush="#FFFF8000"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="13,248,0,0" TextWrapping="Wrap" Text="Équipe 8" VerticalAlignment="Top" Width="120" BorderBrush="#FFFF8000"/>
             <Separator HorizontalAlignment="Left" Height="48" Margin="138,69,0,0" VerticalAlignment="Top" Width="35"/>
             <Separator HorizontalAlignment="Left" Height="48" Margin="138,89,0,0" VerticalAlignment="Top" Width="35"/>
             <Separator HorizontalAlignment="Left" Height="48" Margin="138,122,0,0" VerticalAlignment="Top" Width="35"/>
@@ -81,14 +83,14 @@
             <Separator HorizontalAlignment="Left" Height="48" Margin="174,107,0,0" VerticalAlignment="Top" Width="24"/>
             <Separator HorizontalAlignment="Left" Height="48" Margin="176,160,0,0" VerticalAlignment="Top" Width="22"/>
             <Separator HorizontalAlignment="Left" Height="48" Margin="178,223,0,0" VerticalAlignment="Top" Width="20"/>
-            <TextBox HorizontalAlignment="Left" Height="23" Margin="381,51,0,0" TextWrapping="Wrap" Text="Équipe 9" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
-            <TextBox HorizontalAlignment="Left" Height="23" Margin="381,79,0,0" TextWrapping="Wrap" Text="Équipe 10" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
-            <TextBox HorizontalAlignment="Left" Height="23" Margin="381,107,0,0" TextWrapping="Wrap" Text="Équipe 11" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
-            <TextBox HorizontalAlignment="Left" Height="23" Margin="381,136,0,0" TextWrapping="Wrap" Text="Équipe 12" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
-            <TextBox HorizontalAlignment="Left" Height="23" Margin="381,164,0,0" TextWrapping="Wrap" Text="Équipe 13" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
-            <TextBox HorizontalAlignment="Left" Height="23" Margin="381,192,0,0" TextWrapping="Wrap" Text="Équipe 14" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
-            <TextBox HorizontalAlignment="Left" Height="23" Margin="381,220,0,0" TextWrapping="Wrap" Text="Équipe 15" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
-            <TextBox HorizontalAlignment="Left" Height="23" Margin="381,248,0,0" TextWrapping="Wrap" Text="Équipe 16" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="381,51,0,0" TextWrapping="Wrap" Text="Équipe 9" VerticalAlignment="Top" Width="120" BorderBrush="#FFFF8000"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="381,79,0,0" TextWrapping="Wrap" Text="Équipe 10" VerticalAlignment="Top" Width="120" BorderBrush="#FFFF8000"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="381,107,0,0" TextWrapping="Wrap" Text="Équipe 11" VerticalAlignment="Top" Width="120" BorderBrush="#FFFF8000"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="381,136,0,0" TextWrapping="Wrap" Text="Équipe 12" VerticalAlignment="Top" Width="120" BorderBrush="#FFFF8000"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="381,164,0,0" TextWrapping="Wrap" Text="Équipe 13" VerticalAlignment="Top" Width="120" BorderBrush="#FFFF8000"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="381,192,0,0" TextWrapping="Wrap" Text="Équipe 14" VerticalAlignment="Top" Width="120" BorderBrush="#FFFF8000"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="381,220,0,0" TextWrapping="Wrap" Text="Équipe 15" VerticalAlignment="Top" Width="120" BorderBrush="#FFFF8000"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="381,248,0,0" TextWrapping="Wrap" Text="Équipe 16" VerticalAlignment="Top" Width="120" BorderBrush="#FFFF8000"/>
             <Separator HorizontalAlignment="Left" Height="48" Margin="341,36,0,0" VerticalAlignment="Top" Width="35"/>
             <Separator HorizontalAlignment="Left" Height="48" Margin="341,69,0,0" VerticalAlignment="Top" Width="35"/>
             <Separator HorizontalAlignment="Left" Height="48" Margin="341,89,0,0" VerticalAlignment="Top" Width="35"/>
@@ -216,8 +218,8 @@
                     </TransformGroup>
                 </Separator.RenderTransform>
             </Separator>
-            <TextBox HorizontalAlignment="Left" Height="23" Margin="222,42,0,0" TextWrapping="Wrap" Text="Gagnant" VerticalAlignment="Top" Width="69" TextChanged="TextBox_TextChanged"/>
-
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="222,42,0,0" TextWrapping="Wrap" Text="Gagnant" VerticalAlignment="Top" Width="69" />
+            </Grid>
         </Grid>
 
     </Grid>

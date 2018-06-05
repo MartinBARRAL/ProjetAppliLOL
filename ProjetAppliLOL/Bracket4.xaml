@@ -5,53 +5,94 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ProjetAppliLOL"
       mc:Ignorable="d" 
-      d:DesignHeight="300" d:DesignWidth="300"
+      d:DesignHeight="300" d:DesignWidth="616.8"
       Title="Bracket4">
 
     <Grid>
+        <Grid>
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF08ABAC" Offset="1"/>
+                    <GradientStop Color="#FF00142C"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock x:Name="afficheNom4" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="175" Foreground="#FFFFAA00" Cursor="None"  LineHeight="16" FontSize="18" FontWeight="Bold" FontFamily="ROG Fonts v1.6" TextAlignment="Center" TextOptions.TextFormattingMode="Display" Text="{Binding textdata}"/>
+                <TextBlock x:Name="afficheCategory4" HorizontalAlignment="Right" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="175" Foreground="#FFFFAA00" Cursor="None" LineHeight="16" FontSize="18" FontWeight="Bold" FontFamily="ROG Fonts v1.6" TextAlignment="Center" TextOptions.TextFormattingMode="Display" Text="{Binding categorydata}"/>
+                <Button x:Name="button1" Content="Créer mon tournoi" VerticalAlignment="Top" Margin="189,269,173,0" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="#FFFFAA00" FontStyle="Italic" FontFamily="ROG Fonts v1.6" FontSize="14" RenderTransformOrigin="0.097,0.573"/>
 
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+                <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="52" Margin="160,159,0,0" VerticalAlignment="Top" Width="0"/>
+                <Slider HorizontalAlignment="Left" Height="52" Margin="160,159,0,0" VerticalAlignment="Top" Width="0"/>
+                <Separator HorizontalAlignment="Left" Height="48" Margin="122,48,0,0" VerticalAlignment="Top" Width="48"/>
+                <Separator HorizontalAlignment="Left" Height="54" Margin="89,102,0,0" VerticalAlignment="Top" Width="0"/>
 
-            <RowDefinition Height="2*"/>
+                <Separator HorizontalAlignment="Left" Height="48" Margin="116,76,0,0" VerticalAlignment="Top" Width="52"/>
+                <Separator HorizontalAlignment="Left" Height="48" Margin="120,166,0,0" VerticalAlignment="Top" Width="50"/>
+                <Separator HorizontalAlignment="Left" Height="48" Margin="120,195,0,0" VerticalAlignment="Top" Width="49"/>
+                <Separator HorizontalAlignment="Left" Height="48" Margin="307,63,0,0" VerticalAlignment="Top" Width="33"/>
+                <Separator HorizontalAlignment="Left" Height="48" Margin="307,179,0,0" VerticalAlignment="Top" Width="31" RenderTransformOrigin="0.594,-1.208"/>
+                <Separator HorizontalAlignment="Left" Height="29" Margin="282,131,0,0" VerticalAlignment="Top" Width="116" RenderTransformOrigin="0.5,0.5">
+                    <Separator.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90.578"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Separator.RenderTransform>
+                </Separator>
+                <Separator HorizontalAlignment="Left" Height="48" Margin="340,124,0,0" VerticalAlignment="Top" Width="36"/>
+                <Separator HorizontalAlignment="Left" Height="29" Margin="156,72,0,0" VerticalAlignment="Top" Width="27" RenderTransformOrigin="0.5,0.5">
+                    <Separator.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90.578"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Separator.RenderTransform>
+                </Separator>
+                <Separator HorizontalAlignment="Left" Height="29" Margin="155,190,0,0" VerticalAlignment="Top" Width="29" RenderTransformOrigin="0.5,0.5">
+                    <Separator.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90.578"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Separator.RenderTransform>
+                </Separator>
+                <Separator HorizontalAlignment="Left" Height="48" Margin="170,65,0,0" VerticalAlignment="Top" Width="36"/>
+                <Separator HorizontalAlignment="Left" Height="48" Margin="169,180,0,0" VerticalAlignment="Top" Width="35"/>
 
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
 
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
-        <Grid.Background>
-            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="#FF08ABAC" Offset="1"/>
-                <GradientStop Color="#FF00142C"/>
-            </LinearGradientBrush>
-        </Grid.Background>
-        <TextBlock Grid.Row="0"  Grid.Column="2" x:Name="Trouvez_Votre_Tournois_Copy" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Height="46" Width="248" Foreground="#FFFFAA00" Cursor="None" LineHeight="16" FontSize="14" FontWeight="Bold" FontFamily="ROG Fonts v1.6" TextAlignment="Center" TextOptions.TextFormattingMode="Display" Text="Bracket"/>
-        <TextBlock Grid.Row="1"  Grid.Column="0" x:Name="Quart" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Height="46" Width="150" Foreground="#FFFFAA00" Cursor="None" LineHeight="16" FontSize="10" FontWeight="Bold" FontFamily="ROG Fonts v1.6" TextAlignment="Center" TextOptions.TextFormattingMode="Display" Text="Quart"/>
-        <TextBlock Grid.Row="3"  Grid.Column="2" x:Name="Demi" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Height="46" Width="150" Foreground="#FFFFAA00" Cursor="None" LineHeight="16" FontSize="10" FontWeight="Bold" FontFamily="ROG Fonts v1.6" TextAlignment="Center" TextOptions.TextFormattingMode="Display" Text="Demi"/>
-        <TextBlock Grid.Row="4"  Grid.Column="4" x:Name="Finale" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Height="46" Width="150" Foreground="#FFFFAA00" Cursor="None" LineHeight="16" FontSize="10" FontWeight="Bold" FontFamily="ROG Fonts v1.6" TextAlignment="Center" TextOptions.TextFormattingMode="Display" Text="Finale"/>
-        <Button Grid.Row="9"  Grid.Column="2" x:Name="button1" Content="Creer mon tournoi" VerticalAlignment="Top"  BorderBrush="{x:Null}" Background="{x:Null}" Foreground="#FFFFAA00" FontStyle="Italic" FontFamily="ROG Fonts v1.6" FontSize="10" RenderTransformOrigin="0.097,0.573"/>
-        <TextBox Grid.Row="2"  Grid.Column="0" x:Name="textBox1" HorizontalAlignment="Left" Height="23"  TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox Grid.Row="3"  Grid.Column="0" x:Name="textBox3" HorizontalAlignment="Left" Height="23"  TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox Grid.Row="7"  Grid.Column="0" x:Name="textBox4" HorizontalAlignment="Left" Height="23"  TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox Grid.Row="8"  Grid.Column="0" x:Name="textBox5" HorizontalAlignment="Left" Height="23"  TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox Grid.Row="4"  Grid.Column="2" x:Name="textBox6" HorizontalAlignment="Left" Height="23"  TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
 
 
-        <TextBox Grid.Row="6"  Grid.Column="2" x:Name="textBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox Grid.Row="5"  Grid.Column="5" x:Name="textBox2" HorizontalAlignment="Center" Height="23" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Center" Width="120" />
+                    </Grid.ColumnDefinitions>
+                    <TextBox Grid.Row="1"  Grid.Column="0" HorizontalAlignment="Center" Height="23"  TextWrapping="Wrap" Text="Équipe 1" VerticalAlignment="Top" Width="120" BorderBrush="#FFFF8000"/>
+                    <TextBox Grid.Row="1"  Grid.Column="0" HorizontalAlignment="Center" Height="23"  TextWrapping="Wrap" Text="Équipe 2" VerticalAlignment="Bottom" Width="120" BorderBrush="#FFFF8000"/>
+                    <TextBox Grid.Row="3"  Grid.Column="0" HorizontalAlignment="Center" Height="23" TextWrapping="Wrap" Text="Équipe 3" VerticalAlignment="Top" Width="120" BorderBrush="#FFFF8000" />
+                    <TextBox Grid.Row="3"  Grid.Column="0" HorizontalAlignment="Center" Height="23"  TextWrapping="Wrap" Text="Équipe 4" VerticalAlignment="Bottom" Width="120" BorderBrush="#FFFF8000"/>
+                    <TextBlock Grid.Row="1" Grid.Column="1" x:Name="textBlock" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Center" Width="100" Height="23" Background="White" />
+                    <TextBlock Grid.Row="3" Grid.Column="1" x:Name="textBlock2" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Center" Width="100" Height="23" Background="White" />
+                    <TextBlock Grid.Row="2"  Grid.Column="2" Grid.ColumnSpan="2" x:Name="textBlock1_Copy1" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Center" Width="100" Height="23" Background="White"/>
+                </Grid>
+            </Grid>
+
+        </Grid>
 
     </Grid>
 </Page>

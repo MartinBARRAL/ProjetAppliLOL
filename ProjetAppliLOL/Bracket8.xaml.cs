@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
 namespace ProjetAppliLOL
 {
     /// <summary>
@@ -20,9 +21,14 @@ namespace ProjetAppliLOL
     /// </summary>
     public partial class Bracket8 : Page
     {
-        public Bracket8()
+        public Bracket8(string Nom8, string category8)
         {
             InitializeComponent();
+
+            afficheNom8.DataContext = new TextboxText() { textdata = Nom8};
+            afficheCategory8.DataContext = new TextboxText() { categorydata = category8 };
         }
+
+      
     }
 }

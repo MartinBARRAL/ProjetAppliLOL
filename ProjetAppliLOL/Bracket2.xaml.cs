@@ -20,9 +20,11 @@ namespace ProjetAppliLOL
     /// </summary>
     public partial class Bracket2 : Page
     {
-        public Bracket2()
+        public Bracket2(string Nom2, string category2)
         {
             InitializeComponent();
+            afficheNom2.DataContext = new TextboxText() { textdata = Nom2 };
+            afficheCategory2.DataContext = new TextboxText() { categorydata = category2 };
         }
     }
 }

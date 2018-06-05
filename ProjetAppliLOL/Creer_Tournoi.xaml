@@ -35,16 +35,16 @@
             <TextBlock Grid.ColumnSpan="3" Grid.Row="1" Grid.Column="0" x:Name="Trouvez_Votre_Tournois_Copy" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Height="46" Width="235" Foreground="#FFFFAA00" Cursor="None"  LineHeight="16" FontSize="18" FontWeight="Bold" FontFamily="ROG Fonts v1.6" TextAlignment="Center" TextOptions.TextFormattingMode="Display" Text="Créer un Tournoi"/>
             <TextBlock Grid.Row="2" Grid.Column="1" x:Name="textBox1" HorizontalAlignment="Left" VerticalAlignment="Center" Height="23"  TextWrapping="Wrap" Text="Nom Tournoi :" Width="150" Background="{x:Null}" Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6" FontSize="14"/>
             <TextBlock Grid.Row="3" Grid.Column="1" x:Name="textBox2" HorizontalAlignment="Left" VerticalAlignment="Center" Height="23" TextWrapping="Wrap" Text="Nombre equipe :"  Width="150"  Background="{x:Null}"  Foreground="#FFFFAA00" FontFamily="ROG Fonts v1.6" FontSize="14"/>
-            <TextBox Grid.Row="2" Grid.Column="2" x:Name="nomTournois" HorizontalAlignment="Left"  TextWrapping="Wrap" VerticalAlignment="Center" Height="23" Width="190" Background="White"/>
+            <TextBox Grid.Row="2" Grid.Column="2" x:Name="nomTournois" HorizontalAlignment="Left"  TextWrapping="Wrap" VerticalAlignment="Center" Height="23" Width="190" Background="White" BorderBrush="#FFFF8000"/>
             <TextBlock Grid.Row="4" Grid.Column="1" x:Name="textBox1_Copy" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Catégorie :" VerticalAlignment="Center" Width="150" Background="{x:Null}" Foreground="#FFFFAA00"  FontFamily="ROG Fonts v1.6" FontSize="14"/>
             <Button Grid.Row="5" Grid.Column="2" x:Name="button" Content="Valider"  HorizontalAlignment="Left" VerticalAlignment="Center" Width="192" Height="36" Foreground="#FFFFAA00" Background="#FF00142C" BorderBrush="#FFFFAA00" FontFamily="ROG Fonts v1.6" FontSize="14" Click="tournois_Click"/>
-            <ComboBox   Grid.Row="3" Grid.Column="2" x:Name="comboBox1" HorizontalAlignment="Left"  VerticalAlignment="Center" Width="192" SelectionChanged="comboBox_SelectionChanged">
+            <ComboBox   Grid.Row="3" Grid.Column="2" x:Name="comboBox1" HorizontalAlignment="Left"  VerticalAlignment="Center" Width="192" SelectionChanged="comboBox_SelectionChanged" BorderBrush="#FFFF8000">
                 <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="190.4"/>
                 <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="190.4"/>
                 <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="190.4"/>
                 <ComboBoxItem Content="16" HorizontalAlignment="Left" Width="190.4"/>
             </ComboBox>
-            <ComboBox  Grid.Row="4" Grid.Column="2" x:Name="comboBox" HorizontalAlignment="Left" VerticalAlignment="Center" Width="190" SelectionChanged="comboBox_SelectionChanged">
+            <ComboBox  Grid.Row="4" Grid.Column="2" x:Name="comboBox" HorizontalAlignment="Left" VerticalAlignment="Center" Width="190" SelectionChanged="comboBox_SelectionChanged" BorderBrush="#FFFF8000">
                 <ComboBoxItem Content="Bronze - Gold" HorizontalAlignment="Left" Width="187.2"/>
                 <ComboBoxItem Content="Platine - Diamants" HorizontalAlignment="Left" Width="187.2"/>
                 <ComboBoxItem Content="Master - Challenger" HorizontalAlignment="Left" Width="187.2"/>

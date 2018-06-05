@@ -89,6 +89,7 @@
     <Compile Include="Bracket4.xaml.cs">
       <DependentUpon>Bracket4.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TextboxText.cs" />
     <Page Include="Bracket16.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

@@ -9,15 +9,15 @@ namespace ProjetAppliLOL
     class ClassBracket
     {
         public string nomTournoi;
-        public int nbEquipes;
-        public int Classement;
+       
+        public string Classement;
 
         public ClassBracket() { }
 
-        public ClassBracket(string nomtournois, int nbequipes, int classement)
+        public ClassBracket(string nomtournois, string classement)
         {
             this.nomTournoi = nomtournois;
-            this.nbEquipes = nbequipes;
+          
             this.Classement = classement;
         }
 
@@ -27,13 +27,7 @@ namespace ProjetAppliLOL
             return this.nomTournoi;
         }
 
-        public int NbEquipes()
-        {
-
-            return this.nbEquipes;
-        }
-
-        public int Categorie()
+        public string Categorie()
         {
 
             return this.Classement;

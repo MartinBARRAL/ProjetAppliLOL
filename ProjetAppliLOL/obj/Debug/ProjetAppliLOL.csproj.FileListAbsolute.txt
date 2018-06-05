@@ -87,3 +87,5 @@ C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Bracket8.g.cs
 C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Bracket8.baml
 C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Bracket2.g.cs
 C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Bracket4.g.cs
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Bracket2.baml
+C:\Users\marti\Desktop\ProjetAppliLOL\ProjetAppliLOL\obj\Debug\Bracket4.baml
